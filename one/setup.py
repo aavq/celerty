@@ -14,7 +14,9 @@ setup(
     },
     install_requires=[
         'aiohttp==3.11.18',
+        'rich==14.0.0',
         'tenacity==9.1.2',
+        'tqdm==4.67.1',
     ],
     python_requires='>=3.7',
 )
